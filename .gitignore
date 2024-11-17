@@ -91,12 +91,8 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
+# celery beat schedule file
 celerybeat-schedule
-celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -127,3 +123,27 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Local GitHub Actions tool (ACT)
+.actrc
+
+# coverage
+cov.xml
+
+# Editor config files
+.vscode
+
+# DeepCode/Snyk
+.dccache
+
+# Tox stuff
+tests/reports
+
+# Makefile installation stamp
+.install.stamp
+
+# Ruff
+.ruff_cache
+
+# Logs
+logs/

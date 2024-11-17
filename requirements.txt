@@ -1,5 +1,0 @@
-PySimpleGUI
-requests
-yeelight
-mss
-numpy
